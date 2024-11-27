@@ -1,0 +1,100 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mision_1"
+	group: ""
+	id: "34FABF819AA3A927"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "270E9080C148912D"
+			tasks: [{
+				id: "3EC35FC4F7E10ACE"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Hazte diamante"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["270E9080C148912D"]
+			id: "630D1C54A25F6808"
+			tasks: [{
+				id: "60E5A6ED73F35D38"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["630D1C54A25F6808"]
+			id: "67355920A5EC3818"
+			tasks: [{
+				id: "6F9638D98DC4B1DC"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["67355920A5EC3818"]
+			id: "1956559722A93D1D"
+			rewards: [{
+				id: "1D327B90BBB02FE4"
+				item: "modminds:dedita_celeste"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0336A37C941AB159"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "47FB2F4BC7F127B0"
+			rewards: [{
+				id: "404EA60890914E36"
+				item: "modminds:nutritotem"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C48B32F78C370DD"
+				item: "orcz:bone_1"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+	]
+	title: "Mision 1"
+}

@@ -1,0 +1,154 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyways, ensure that the server is not running currently and that you have prepared a backup of this file.
+
+data-version: 3|2|3465
+'1':
+  uniqueId: fef03e85-f9bb-4a51-aacf-f7f315d20274
+  world: world
+  x: -600
+  y: 141
+  z: -287
+  yaw: 185.4765
+  type: admin
+  name: Deditas
+  object:
+    type: villager
+    baby: false
+    profession: CARTOGRAPHER
+    villagerType: SWAMP
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: MODMINDS_DEDITA_NARANJA
+        amount: 5
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: MODMINDS_DEDITA_AZUL
+  snapshots: []
+'4':
+  uniqueId: 3b4db275-d29e-41b8-888b-272ac1ac818b
+  world: world
+  x: -543
+  y: 138
+  z: -269
+  yaw: 95.73949
+  type: admin
+  name: RECOMPENSA
+  object:
+    type: llama
+    baby: false
+    carryingChest: true
+    color: BROWN
+    carpetColor: RED
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: MODMINDS_DEDITA_AZUL
+        amount: 10
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: MODMINDS_DEDITA_CELESTE
+  snapshots: []
+'5':
+  uniqueId: 055fd89a-9799-4160-bd76-865b8788abca
+  world: world
+  x: -598
+  y: 141
+  z: -290
+  yaw: 0.3586696
+  type: admin
+  name: Totems
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: PLAINS
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO3_NUTRI_TOTEM
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: MODMINDS_DEDITA_AZUL
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DIAMOND
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: MODMINDS_BUHO_TOTEM
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: MODMINDS_DEDITA_AZUL
+        amount: 2
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: GOLD_INGOT
+        amount: 10
+  snapshots: []
+'6':
+  uniqueId: 8dbc5fc1-d809-4f79-a6ef-6782c520c27b
+  world: world
+  x: -592
+  y: 141
+  z: -290
+  yaw: 2.591235
+  type: admin
+  name: proximamente
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: PLAINS
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: BARRIER
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: MODMINDS_DEDITA_AZUL
+  snapshots: []
+'7':
+  uniqueId: c8dfe93b-e443-4af1-be03-4e25b8a033db
+  world: world
+  x: -590
+  y: 141
+  z: -287
+  yaw: 3.9550064
+  type: admin
+  name: proximamente
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: PLAINS
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: MODMINDS_DEDITA_AZUL
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: BARRIER
+  snapshots: []
